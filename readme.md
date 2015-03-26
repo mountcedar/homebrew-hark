@@ -11,7 +11,11 @@
 * すべてのHARKノードが使用可能なわけではありません。Microconeなどでの録音には対応していませんので、Audacityなど、
 別途のソフトウェアで録音してからオフラインで、ご利用ください。
 
-# 対応するバージョン
+# リリース
+
+* [hark-2.1.yosemite](https://github.com/mountcedar/homebrew-hark/releases/tag/hark-2.1.yosemite)
+
+# 対応するOS
 
 * MacOSX 10.10 Yosemite
 

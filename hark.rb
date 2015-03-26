@@ -1,8 +1,8 @@
 require "formula"
 
 class Hark < Formula
-  homepage "http://winnie.kuis.kyoto-u.ac.jp/HARK/document/hark-document-ja/index.html"
-  url "https://raw.githubusercontent.com/mountcedar/homebrew-hark/master/hark-2.1.tgz"
+  homepage "http://www.hark.jp/wiki.cgi"
+  url "http://www.hark.jp/src/2.1.0/harkfd_2.1.0.tar.gz"
   sha1 ""
 
   depends_on "gcc" => :build
@@ -16,8 +16,8 @@ class Hark < Formula
   depends_on "libzip"
 
   bottle do
-    root_url "https://raw.githubusercontent.com/mountcedar/homebrew-hark/master/bottles" # Optional root to calculate bottle URLs
-    sha1 "5e33131d0d67fbec802373f13a2559a94a225e90" => :yosemite
+    root_url "https://github.com/mountcedar/homebrew-hark/releases/download/hark-2.1.yosemite/" # Optional root to calculate bottle URLs
+    sha1 "5d4623c45e06468b361731512de821b7c4309aee" => :yosemite
   end
 
   def pour_bottle?
