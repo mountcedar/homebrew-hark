@@ -17,7 +17,7 @@ class Hark < Formula
 
   bottle do
     root_url "https://github.com/mountcedar/homebrew-hark/releases/download/hark-2.1.yosemite" # Optional root to calculate bottle URLs
-    sha1 "5d4623c45e06468b361731512de821b7c4309aee" => :yosemite
+    sha1 "b5661bc87c4065cd2e8b4355057d11c97d816aa8" => :yosemite
   end
 
   def pour_bottle?
