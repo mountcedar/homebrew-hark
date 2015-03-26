@@ -26,10 +26,10 @@ class Hark < Formula
     true
   end
 
-  conflicts_with "libharkio", :because => "hark is containing libharkio"
-  conflicts_with "flowdesigner", :because => "hark is containing flowdesigner"
-  conflicts_with "harkfd", :because => "hark is containing harkfd"  
-  conflicts_with "harkdesigner", :because => "hark is containing harkdesigner"
+  # conflicts_with "libharkio", :because => "hark is containing libharkio"
+  # conflicts_with "flowdesigner", :because => "hark is containing flowdesigner"
+  # conflicts_with "harkfd", :because => "hark is containing harkfd"  
+  # conflicts_with "harkdesigner", :because => "hark is containing harkdesigner"
 
   def install
     # nothing to do
